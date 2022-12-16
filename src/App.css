@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -35,4 +36,113 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.home-pizza {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;;
+
+}
+
+
+.siparisbutton{
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  background-color: white;
+  margin-top: 40px;
+}
+
+#orderustbaslık{
+  background-color: orange;
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+ padding-bottom: 1%;
+ border: 3px solid green;
+ justify-content: space-between;
+ }
+
+
+ #ordersayfasi{
+ background-image: url(./PizzaDelivery.png);
+ }
+
+
+#homepizzafoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.herbirbaslik {
+  background-color: orange;
+  width: 50%;
+  margin: auto; 
+ border: 3px solid green;
+ justify-content: center;
+}
+
+.siparisyazilar{
+  color: white;
+  font-weight:bold;
+}
+
+.herbirbaslik em {
+  color: red;
+}
+
+#siparisiverdimbuttonu{
+  
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: turquoise;  
+  margin-top: 40px;
+}
+
+#pizza-form{
+  background-image: url(./Pizza.png) ;
+}
+
+#order-button{
+  padding: 1% 2%;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;  
+  border-radius: 7%;
+}
+
+.errormesajları {
+  color: red;
+  font-weight: bold;
+}
+
+
+#pizzanick{
+  
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  text-align: center;  
+  justify-content: center;
+  line-height: 50px;
+  background-color: orange;    
+  
 }
