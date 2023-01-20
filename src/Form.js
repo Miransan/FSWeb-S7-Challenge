@@ -187,11 +187,11 @@ const Form = (props) => {
                             onChange={handleChange}
                             value={formData.boyut}
                             name="boyut">
-                            <option >Pizza Boyu Seçiniz</option>
-                            <option >Küçük</option>
-                            <option >Normal</option>
-                            <option >Büyük</option>
-                            <option >Ekstra Büyük</option>
+                            <option>Pizza Boyu Seçiniz</option>
+                            <option>Küçük</option>
+                            <option>Normal</option>
+                            <option>Büyük</option>
+                            <option>Ekstra Büyük</option>
                         </select>
                     </label>
                     <p className="errormesajları">{errorMessages.boyut}</p>
@@ -223,17 +223,17 @@ const Form = (props) => {
 
 
                     <h2> Pizza malzemelerinizi seçiniz</h2>
-                    <label ><input onChange={handleChange} type="checkbox" id="mantar" name="mantar" checked={formData.mantar} /> Mantar </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="biber"name="biber" checked={formData.biber} /> Biber </label>
-                    <label ><input onChange={handleChange} type="checkbox"  id="sosis"name="sosis" checked={formData.sosis} /> Sosis </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="mısır"name="mısır" checked={formData.mısır} /> Mısır </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="salam" name="salam" checked={formData.salam} /> Salam </label>
+                    <label><input onChange={handleChange} type="checkbox" id="mantar" name="mantar" checked={formData.mantar} /> Mantar </label>
+                    <label><input onChange={handleChange} type="checkbox" id="biber"name="biber" checked={formData.biber} /> Biber </label>
+                    <label><input onChange={handleChange} type="checkbox"  id="sosis"name="sosis" checked={formData.sosis} /> Sosis </label>
+                    <label><input onChange={handleChange} type="checkbox" id="mısır"name="mısır" checked={formData.mısır} /> Mısır </label>
+                    <label><input onChange={handleChange} type="checkbox" id="salam" name="salam" checked={formData.salam} /> Salam </label>
                     <label><input onChange={handleChange} type="checkbox" id="sucuk" name="sucuk" checked={formData.sucuk} /> Sucuk </label> <br></br>
-                    <label ><input onChange={handleChange} type="checkbox" id="ananas" name="ananas" checked={formData.ananas} /> Ananas </label>
+                    <label><input onChange={handleChange} type="checkbox" id="ananas" name="ananas" checked={formData.ananas} /> Ananas </label>
                     <label><input onChange={handleChange} type="checkbox" id="kavurma" name="kavurma" checked={formData.kavurma} /> Kavurma </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="tavuk" name="tavuk" checked={formData.tavuk} /> Tavuk </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="zeytin"name="zeytin" checked={formData.zeytin} /> Zeytin </label>
-                    <label ><input onChange={handleChange} type="checkbox" id="pastırma" name="pastırma" checked={formData.pastırma} /> Pastırma </label>
+                    <label><input onChange={handleChange} type="checkbox" id="tavuk" name="tavuk" checked={formData.tavuk} /> Tavuk </label>
+                    <label><input onChange={handleChange} type="checkbox" id="zeytin"name="zeytin" checked={formData.zeytin} /> Zeytin </label>
+                    <label><input onChange={handleChange} type="checkbox" id="pastırma" name="pastırma" checked={formData.pastırma} /> Pastırma </label>
 
                     <p className="errormesajları">{errorMessages.malzeme2}</p>
 

@@ -21,17 +21,17 @@ const Order = (props) => {
                 <p className='siparisyazilar'>Pizzanızın Boyutu: <br></br> <em>{boyut}</em> </p> 
                 <p className='siparisyazilar'>Pizza Sosunuz:<br></br> <em>{malzeme1}</em> </p> 
                 <p className='siparisyazilar'> Pizza Malzemeleriniz:  <br></br>
-                <em>{mantar === true ? "Mantar " : null } { " " }</em>
-                <em>{biber === true ? " Biber " : null } { " " }</em>
-                <em>{sosis === true ? " Sosis " : null } { " " }</em>
-                <em>{salam === true ? " Salam " : null } { " " }</em>
-                <em>{sucuk === true ? " Sucuk " : null } { " " }</em>
-                <em>{mısır === true ? " Mısır " : null } { " " }</em>
-                <em>{ananas === true ? " Ananas " : null } { " " }</em>
-                <em>{pastırma === true ? " Pastırma " : null } { " " }</em>
-                <em> {kavurma === true ? " Kavurma " : null }</em>
-                <em>{tavuk === true ? " Tavuk " : null }</em>
-                <em>{zeytin === true ? " Zeytin " : null } </em></p> 
+                <em>{mantar ? "Mantar " : null } { " " }</em>
+                <em>{biber  ? " Biber " : null } { " " }</em>
+                <em>{sosis  ? " Sosis " : null } { " " }</em>
+                <em>{salam  ? " Salam " : null } { " " }</em>
+                <em>{sucuk  ? " Sucuk " : null } { " " }</em>
+                <em>{mısır  ? " Mısır " : null } { " " }</em>
+                <em>{ananas  ? " Ananas " : null } { " " }</em>
+                <em>{pastırma  ? " Pastırma " : null } { " " }</em>
+                <em> {kavurma  ? " Kavurma " : null }</em>
+                <em>{tavuk  ? " Tavuk " : null }</em>
+                <em>{zeytin  ? " Zeytin " : null } </em></p> 
                 <p className='siparisyazilar'>Kenar Seçiminiz: <br></br><em>{pizzakenar} </em></p> 
                 <p className='siparisyazilar'>Ürün Notu:<br></br><em>{özel}</em> </p>
 
